@@ -1,6 +1,6 @@
 # Auth User Admin UI
 
-## Test
+## Sections
 
 [Tenants](./tenants.md)
 
