@@ -33,24 +33,33 @@ function includeHTML() {
     </head>
 
 <body>
-<div style="border:1px solid red;">
-      
-      
-      <h2 style="color:#ff0033;">Auth User Admin UI</h2>
+    <header>
+        This is the header
+    </header>
+    <div style="display:flex;">
+        <nav class="menu">
+          <ul>
+            <li><a href="client.html" target="right_side">Client</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
 
-
-      <div>
-        <a href="./tenants.md">Tenants</a>
-      </div>
-      <div>
-        <a href="./apps.md">Apps</a>
-      </div>
+        <main>
+            <iframe name="right_side" src="" width="100%" height="100%" frameBorder="0"></iframe>
+        </main>
     
-    xxxx
+    </div>
+    
+    <footer>
+        This is the footer
+    </footer>
+
+    <!--
+        xxxx
     <div w3-include-html="client.html"></div>
     xxxx
-    </div>
-
+-->
 <script>
 includeHTML();
 </script>
